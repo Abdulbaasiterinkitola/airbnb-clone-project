@@ -1,6 +1,6 @@
 # airbnb-clone-project
 
-## 🛠️ Features Breakdown
+## 🛠️ Feature Breakdown
 1. API Documentation
 - OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
 - Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
@@ -83,3 +83,16 @@ Key Entities
 - A Payment is tied to a Booking.
 - A Review belongs to both a User and a Property.
   
+## 🔒 API Security Overview
+### Key Security Measures
+- Authentication: JWT-based login to secure user access.
+- Authorization: Role-based access control (guest, host, admin).
+- Rate Limiting: Protect against abuse by limiting requests.
+- Data Encryption: Store passwords hashed, secure payment details.
+- Input Validation: Prevent SQL injection and XSS attacks.
+### Why Security Matters
+- User Data Protection: Safeguards personal details (emails, passwords).
+- Payment Security: Ensures financial transactions are secure.
+- System Integrity: Prevents malicious access and abuse.
+- Fair Access: Rate limiting stops bots and DDoS attacks.
+
