@@ -96,3 +96,16 @@ Key Entities
 - System Integrity: Prevents malicious access and abuse.
 - Fair Access: Rate limiting stops bots and DDoS attacks.
 
+## ⚡ CI/CD Pipeline
+CI/CD means Continuous Integration/Continuous Deployment. It automates testing, building, and deployment of the backend, and ensures faster delivery.
+
+### Importance
+- Automatic testing on every code change.
+- Faster deployments with minimal downtime.
+- Consistent environments using Docker.
+- Early detection of bugs.
+### Tools
+- GitHub Actions: Automate builds, tests, deployments.
+- Docker: Containerize the backend for consistent environments.
+- PostgreSQL in Docker: Run database in pipelines.
+- Heroku / AWS / DigitalOcean: Deployment platforms.
