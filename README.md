@@ -6,11 +6,11 @@
 4. QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 ## ⚙️ Technology Stack
-Django: A high-level Python web framework used for building the RESTful API.
-Django REST Framework: Provides tools for creating and managing RESTful APIs.
-PostgreSQL: A powerful relational database used for data storage.
-GraphQL: Allows for flexible and efficient querying of data.
-Celery: For handling asynchronous tasks such as sending notifications or processing payments.
-Redis: Used for caching and session management.
-Docker: Containerization tool for consistent development and deployment environments.
-CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+1. Django: A high-level Python web framework used for building the RESTful API.
+2. Django REST Framework: Provides tools for creating and managing RESTful APIs.
+3. PostgreSQL: A powerful relational database used for data storage.
+4. GraphQL: Allows for flexible and efficient querying of data.
+5. Celery: For handling asynchronous tasks such as sending notifications or processing payments.
+6. Redis: Used for caching and session management.
+7. Docker: Containerization tool for consistent development and deployment environments.
+8. CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
